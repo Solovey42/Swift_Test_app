@@ -4,7 +4,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "Swift_Test_app",
+    name: "Swift_Test_app1",
     dependencies: [
         // Dependencies declare other packages that this package depends on.
         // .package(url: /* package url */, from: "1.0.0"),
@@ -15,6 +15,9 @@ let package = Package(
         .target(
             name: "Swift_Test_app",
             dependencies: []),
+        .target(
+                name: "Swift_Test_app2",
+                dependencies: []),
         .testTarget(
             name: "Swift_Test_appTests",
             dependencies: ["Swift_Test_app"]),

@@ -12,7 +12,7 @@ final class Swift_Test_appTests: XCTestCase {
             return
         }
 
-        let fooBinary = productsDirectory.appendingPathComponent("Swift_Test_app")
+        let fooBinary = productsDirectory.appendingPathComponent("Swift_Test_app1")
 
         let process = Process()
         process.executableURL = fooBinary
