@@ -24,6 +24,9 @@ let package = Package(
         .target(
                 name: "Swift_Test_app4",
                 dependencies: []),
+        .target(
+                name: "Swift_Test_app5",
+                dependencies: []),
         .testTarget(
             name: "Swift_Test_appTests1",
             dependencies: ["Swift_Test_app1"]),
