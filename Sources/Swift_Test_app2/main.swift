@@ -5,12 +5,12 @@
 import Foundation
 
 if CommandLine.arguments.count == 1 {
-    let Speed = readLine()! //n
-    let Time = readLine()! //m
+    let Speed = readLine()!
+    let Time = readLine()!
     GetDist(Speed: Speed, Time: Time)
 } else {
-    let Speed = CommandLine.arguments[1] //n
-    let Time = CommandLine.arguments[2] //m
+    let Speed = CommandLine.arguments[1]
+    let Time = CommandLine.arguments[2]
     GetDist(Speed: Speed, Time: Time)
 }
 
