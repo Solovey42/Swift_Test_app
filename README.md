@@ -1,3 +1,3 @@
-# Swift_Test_app
+# Тестовое задание для курса «Разработка приложений» на языке Swift
 
-A description of this package.
+В папке Sources созданы 5 пакетов с файлами main для каждого задания
